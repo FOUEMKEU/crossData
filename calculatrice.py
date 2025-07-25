@@ -7,3 +7,6 @@ class Calculatrice():
     
     def somme(self):
         return   self.a + self.b
+    
+    def produit(self):
+        retrun (self.a)*(self.b)
