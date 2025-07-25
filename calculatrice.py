@@ -9,4 +9,10 @@ class Calculatrice():
         return   self.a + self.b
     
     def produit(self):
-        retrun (self.a)*(self.b)
+        return (self.a)*(self.b)
+        
+    def division(self):
+        if self.b ==0:
+            raise ValueError("Le dénominateur est zéro")
+        else:
+            return self.a/self.b
