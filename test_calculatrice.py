@@ -18,3 +18,11 @@ def test_produit():
     
     assert cal1.produit() == 6
     assert cal2.produit() == 200
+    
+#Test unitaire de la division
+def test_division():
+    cal1 = Calculatrice(2,2)
+    cal2 = Calculatrice(6,2)
+    
+    assert cal1.division() == 1
+    assert cal2.division() == 3
